@@ -29,7 +29,7 @@
 				"$ref": "#/definitions/leerlingtekst"
 			}
 		},
-		"deprecated": {
+		"doelgroepteksten_deprecated": {
 			"#file": "data/deprecated.json",
 			"type" : "array"
 		}
