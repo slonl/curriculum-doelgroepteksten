@@ -1,0 +1,14 @@
+[
+	{
+		"id" : "6a690089-9af5-4000-9677-e4b8261ff1dd",
+		"title" : "Leerlingtekst Aardrijkskunde",
+		"description" : "Leerlingtekst omschrijving van aardrijkskunde",
+		"vak_id" : ["cff7c64e-d3d3-4421-824a-7b1297759468"]
+	},
+	{
+		"id" : "51264d7c-5837-40cd-8c90-016b4f3ba625",
+		"title" : "Leerlingtekst Examenprogramma Aardrijkskunde ak vwo",
+		"description" : "Leerlingtekst omschrijving van examenprogramma aardrijkskunde ak vwo",
+		"examenprogramma_id" : ["e90b9cf7-b652-4f03-9e87-0a239e98eeab"]
+	}
+]
