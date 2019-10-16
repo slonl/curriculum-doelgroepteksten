@@ -10,5 +10,39 @@
 		"title" : "Leerlingtekst Examenprogramma Aardrijkskunde ak vwo",
 		"description" : "Leerlingtekst omschrijving van examenprogramma aardrijkskunde ak vwo",
 		"examenprogramma_id" : ["e90b9cf7-b652-4f03-9e87-0a239e98eeab"]
+	},
+	{
+		"id" : "3bca91ae-8b24-4710-9724-80ee9dbb7afa",
+		"title" : "(LL) Je kunt verschillen in leefbaarheid in je eigen regio verklaren en problemen oplossen",
+		"doel_id" : ["1a8d2bfb-7b90-416f-8b52-3b279b06f631"]
+	},
+	{
+		"id" : "leerlingteksten-dummy",
+		"title": "",
+		"description" : "",
+		"doel_id" : [],
+		"niveau_id" : [],
+		"doelniveau_id" : [],
+		"deprecated_id" : [],
+		"tag_id" : [],
+		"alias_id" : [],
+		"vak_id" : [],
+		"vakkern_id" : [],
+		"vaksubkern_id" : [],
+		"vakinhoud_id" : [],
+		"kerndoel_id" : [],
+		"kerndoel_domein_id" : [],
+		"kerndoel_uitstroomprofiel_id" : [],
+		"kerndoel_vakleergebied_id" : [],
+		"examenprogramma_id" : [],
+		"examenprogramma_body_id" : [],
+		"examenprogramma_kop4_id" : [],
+		"examenprogramma_kop3_id" : [],
+		"examenprogramma_kop2_id" : [],
+		"examenprogramma_kop1_id" : [],
+		"examenprogramma_domein_id" : [],
+		"examenprogramma_subdomein_id" : [],
+		"examenprogramma_eindterm_id" : [],
+		"examenprogramma_vakleergebied_id" : []
 	}
 ]
