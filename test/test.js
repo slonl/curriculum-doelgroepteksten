@@ -19,15 +19,15 @@
 
 	var curriculum   = require('../curriculum-basis/lib/curriculum.js');
 	var schema       = curriculum.loadSchema('context.json');
-	var coreSchema   = curriculum.loadSchema('curriculum-basis/context.json', 'curriculum-basis/');
-	var inhoudSchema = curriculum.loadSchema('curriculum-lpib/context.json', 'curriculum-lpib/');
+	var basisSchema   = curriculum.loadSchema('curriculum-basis/context.json', 'curriculum-basis/');
+	var lpibSchema = curriculum.loadSchema('curriculum-lpib/context.json', 'curriculum-lpib/');
 	var kerndoelSchema = curriculum.loadSchema('curriculum-kerndoelen/context.json', 'curriculum-kerndoelen/');
 	var examenprogrammaSchema = curriculum.loadSchema('curriculum-examenprogramma/context.json', 'curriculum-examenprogramma/');
 	var syllabusSchema = curriculum.loadSchema('curriculum-syllabus/context.json', 'curriculum-syllabus/');
 
 	var valid = ajv
-		.addSchema(coreSchema, 'https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json')
-		.addSchema(inhoudSchema, 'https://opendata.slo.nl/curriculum/schemas/curriculum-lpib/context.json')
+		.addSchema(basisSchema, 'https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json')
+		.addSchema(lpibSchema, 'https://opendata.slo.nl/curriculum/schemas/curriculum-lpib/context.json')
 		.addSchema(kerndoelSchema, 'https://opendata.slo.nl/curriculum/schemas/curriculum-kerndoelen/context.json')
 		.addSchema(examenprogrammaSchema, 'https://opendata.slo.nl/curriculum/schemas/curriculum-examenprogramma/context.json')
 		.addSchema(syllabusSchema, 'https://opendata.slo.nl/curriculum/schemas/curriculum-syllabus/context.json')

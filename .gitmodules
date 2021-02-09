@@ -1,10 +1,10 @@
-[submodule "curriculum-doelen"]
+[submodule "curriculum-basis"]
 	path = curriculum-basis
-	url = https://github.com/slonl/curriculum-doelen.git
+	url = https://github.com/slonl/curriculum-basis.git
 	branch = doelgroepteksten
-[submodule "curriculum-inhouden"]
+[submodule "curriculum-lpib"]
 	path = curriculum-lpib
-	url = https://github.com/slonl/curriculum-inhouden.git
+	url = https://github.com/slonl/curriculum-lpib.git
 	branch = doelgroepteksten
 [submodule "curriculum-kerndoelen"]
 	path = curriculum-kerndoelen
