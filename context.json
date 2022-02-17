@@ -4,7 +4,6 @@
 			"allOf": [
 				{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/base" },
 				{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/allEntities" },
-				{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-lpib/context.json#/definitions/allEntities" },
 				{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-kerndoelen/context.json#/definitions/allEntities" },
 				{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-examenprogramma/context.json#/definitions/allEntities" }
 			],
@@ -29,7 +28,7 @@
 				"$ref": "#/definitions/leerlingtekst"
 			}
 		},
-		"doelgroepteksten_deprecated": {
+		"deprecated": {
 			"#file": "data/deprecated.json",
 			"type" : "array"
 		}
